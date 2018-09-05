@@ -1,0 +1,6 @@
+printWidth: 100
+parser: "typescript"
+useTabs: false
+semi: true
+singleQuote: true
+arrowParens: "avoid"
