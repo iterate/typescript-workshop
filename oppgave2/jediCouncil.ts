@@ -1,5 +1,5 @@
 class JediCouncil {
-  constructor(private name: any) {
-    this.name = name;
+  constructor(private jediList: any[] = []) {
+    this.jediList = jediList;
   }
 }
