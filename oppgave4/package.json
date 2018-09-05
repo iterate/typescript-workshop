@@ -1,0 +1,28 @@
+{
+  "name": "typescript-workshop",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Iterate AS",
+  "license": "MIT",
+  "scripts": {
+    "build": "node_modules/.bin/webpack-dev-server --config webpack.config.js",
+    "start": "yarn build --watch"
+  },
+  "dependencies": {
+    "axios": "^0.18.0",
+    "react": "^16.4.2",
+    "react-dom": "^16.4.2"
+  },
+  "devDependencies": {
+    "@types/html-webpack-plugin": "^3.2.0",
+    "@types/node": "^10.9.4",
+    "@types/react": "^16.4.12",
+    "@types/react-dom": "^16.0.7",
+    "awesome-typescript-loader": "^5.2.0",
+    "html-webpack-plugin": "4.0.0-alpha.2",
+    "typescript": "^3.0.1",
+    "webpack": "^4.17.1",
+    "webpack-cli": "^3.1.0",
+    "webpack-dev-server": "^3.1.6"
+  }
+}

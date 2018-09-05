@@ -1,0 +1,24 @@
+{
+  "compilerOptions": {
+    "lib": [
+      "es5", "es6", "dom", "es2015.promise"
+    ],
+    "moduleResolution": "node",
+    "noImplicitAny": true,
+    "module": "es6",
+    "target": "es5",
+    "jsx": "react",
+    "allowJs": true,
+    "allowSyntheticDefaultImports": true,
+    "esModuleInterop": true,
+    "outDir": "build/typescript"
+  },
+  "include": [
+    "oppgave4/src/**/*.ts",
+    "oppgave4/src/**/*.tsx",
+    "oppgave4/lib/**/*.js"
+  ],
+  "exclude": [
+    "oppgave4/node_modules"
+  ]
+}
